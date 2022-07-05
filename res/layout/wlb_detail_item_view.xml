@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.WLBDeatailItemView android:gravity="start|center|top" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:paddingBottom="@dimen/op_control_margin_list_bottom2" android:focusable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/op_control_margin_space3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/user_picture" android:background="@drawable/wlb_avathar_bg_enabled" android:padding="15.0dip" android:layout_width="@dimen/wlb_mode_icon_size" android:layout_height="@dimen/wlb_mode_icon_size" android:src="@drawable/qs_panel_work_icon" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_desc" android:layout_width="@dimen/wlb_text_view_size" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_control_margin_list_top2" android:layout_marginStart="@dimen/op_control_margin_space3">
+        <TextView android:textColor="@color/op_control_text_color_primary_default" android:gravity="center" android:id="@id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/op_control_text_style_h6" />
+        <TextView android:textColor="@color/op_control_text_color_secondary_default" android:id="@id/trigger_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" style="@style/op_control_text_style_body1" />
+    </LinearLayout>
+</com.android.systemui.statusbar.phone.WLBDeatailItemView>
